@@ -1,0 +1,95 @@
+
+/* Name : Ved Patel  */
+
+
+
+/* html styles */
+html,
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color:aqua;
+}
+
+
+/* Accordian styles*/
+.accordion-panel {
+	display: none;
+	color: darkblue;
+
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+
+.tab-panel.active {
+	display: block;
+}
+
+ul.accordion {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: large;
+}
+
+button.accordion-control {
+	background-color:greenyellow;
+	padding: 20px;
+	display: block;
+	width: 95%;
+	margin : 0 auto;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: large;
+    border: 4px dotted blueviolet;
+
+}
+
+.accordion-panel {
+	display: none;
+	padding: 10px;
+	font-size: 2em;
+	font-size: 15px;
+	width: 77%;
+	margin: 0 auto;
+}
+
+ul.tab-list {
+    padding-inline-start: 0px;
+}
+
+ul.tab-list li {
+	display: block;
+	padding: 10px;
+	border: 2px dashed darkred;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+ul.tab-list li.active {
+	background-color: blueviolet;
+}
+
+ul.tab-list li.active a {
+	color: rgb(211, 10, 10);
+}
+
+.tab-panel {
+	display: none;
+	width: 200px;
+	padding: 130px;
+	border: 3px double darkred;
+  	margin: 0 auto;
+	color: darkgreen;
+	font-size: large;
+}
+
+.tab-panel.active {
+	display: block;
+}
+
