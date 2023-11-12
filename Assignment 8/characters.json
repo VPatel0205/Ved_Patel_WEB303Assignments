@@ -1,0 +1,51 @@
+[
+    {
+        "firstName": "Samar",
+        "lastName": "Anand",
+        "gender": "Male",
+        "role": "Bomb Disposal Expert",
+        "age": 30
+    },
+    {
+        "firstName": "Meera",
+        "lastName": "Thapar",
+        "gender": "Female",
+        "role": "Journalist",
+        "age": 28
+    },
+    {
+        "firstName": "Akira",
+        "lastName": "Rai",
+        "gender": "Female",
+        "role": "Intern",
+        "age": 22
+    },
+    {
+        "firstName": "Meera's Father",
+        "lastName": "Thapar",
+        "gender": "Male",
+        "role": "Businessman",
+        "age": 55
+    },
+    {
+        "firstName": "Major Samar",
+        "lastName": "Anand",
+        "gender": "Male",
+        "role": "Indian Army Officer",
+        "age": 35
+    },
+    {
+        "firstName": "Meera's Mother",
+        "lastName": "Thapar",
+        "gender": "Female",
+        "role": "Homemaker",
+        "age": 50
+    },
+    {
+        "firstName": "Doctor",
+        "lastName": "Kapoor",
+        "gender": "Male",
+        "role": "Hospital Physician",
+        "age": 45
+    }
+]
