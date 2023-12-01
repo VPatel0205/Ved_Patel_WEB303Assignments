@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        VedKumar Patel
+    </h1>
+    <form id="registrationForm" onsubmit="submitForm(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" oninput="checkForm()">
+        <br>
+    
+        <label for="password">Password (at least 12 characters):</label>
+        <input type="password" id="password" name="password" oninput="checkForm()">
+        <br>
+    
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" oninput="checkForm()">
+        <br>
+    
+        <label>
+            <input type="checkbox" id="termsCheckbox" onchange="checkForm()"> I accept the terms of service
+        </label>
+        <br>
+    
+        <label for="country">Select your country:</label>
+        <select id="country" name="country" onchange="checkForm()">
+            <option value="" selected disabled>Select your country</option>
+            <!-- Countries will be added dynamically using JavaScript -->
+        </select>
+        <br>
+    
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+    
+    <div id="welcomeMessage" style="display:none;"></div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
